@@ -12,7 +12,7 @@ export default function MemberBox(props: VNS_Member) {
                 alt={"VNS_Crew"}
             />
             <div className={"py-1 text-xl font-extrabold"}>{props.name}</div>
-            <div className={"py-1"}>{props.role.replace("_", " ")}</div>
+            <div className={`py-1 ${props.role}`}>{props.role.replace("_", " ")}</div>
             <div className={"py-1 text-xs text-gray-600 italic"}>&#34;{props.quote}&#34;</div>
         </div>
     );

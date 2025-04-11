@@ -22,6 +22,52 @@ body {
     color: var(--foreground);
 }
 
+
+.Head_Admin, .Secretary, .Lead_Staff, .Kahoot, .Logistics, .Media,
+.Wordle, .Mini_Tournament, .Partner, .Donator, .Collaborator {
+    border-radius: 1rem;
+}
+
+.Secretary, .Logistics {
+    color: var(--color-white);
+}
+
+.Head_Admin {
+    background-color: aquamarine;
+}
+
+.Secretary {
+    background-color: var(--color-red-600);
+}
+
+.Lead_Staff {
+    background-color: var(--color-red-300);
+}
+
+.Kahoot {
+    background-color: var(--color-purple-300);
+}
+
+.Logistics {
+    background-color: cornflowerblue;
+}
+
+.Media {
+    background-color: aqua;
+}
+
+.Wordle {
+    background-color: var(--color-gray-300);
+}
+
+.Mini_Tournament {
+    background-color: var(--color-amber-300);
+}
+
+.Partner, .Donator, .Collaborator {
+    background-color: var(--color-orange-300);
+}
+
 @utility bg-vns-noise {
     background-color: white;
 }

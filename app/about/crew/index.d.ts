@@ -7,6 +7,7 @@ export type VNS_Member = {
     role:
         | string
         | "Head_Admin"
+        | "Secretary"
         | "Lead_Staff"
         | "Mini_Tournament"
         | "Logistics"
@@ -14,5 +15,6 @@ export type VNS_Member = {
         | "Kahoot"
         | "Media"
         | "Donator"
-        | "Partner";
+        | "Partner"
+        | "Collaborator";
 };

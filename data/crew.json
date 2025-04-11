@@ -26,9 +26,24 @@
       "quote": "I’m not a robot, I’m just… dumb"
     },
     {
+      "name": "AkaneOSK",
+      "role": "Secretary",
+      "quote": "Akane Ousaka is my love omg she’s so cute!!"
+    },
+    {
+      "name": "Meruko",
+      "role": "Secretary",
+      "quote": "In relationsheep with Eyja"
+    },
+    {
       "name": "WhaTa SixX",
       "role": "Media",
       "quote": "Book shoot đi, làm ơn, đói lắm rồi"
+    },
+    {
+      "name": "Succhusa",
+      "role": "Media",
+      "quote": "Pay us Wiz"
     },
     {
       "name": "Red",
@@ -36,9 +51,9 @@
       "quote": "Yeah, Science! - Jesse Pinkman"
     },
     {
-      "name": "AkaneOSK",
-      "role": "Logistics",
-      "quote": "Akane Ousaka is my love omg she’s so cute!!"
+      "name": "TuanAnh",
+      "role": "Kahoot",
+      "quote": "Limbussy"
     },
     {
       "name": "Erich C. H.",
@@ -51,27 +66,12 @@
       "quote": "Why does life slumber?"
     },
     {
-      "name": "Succhusa",
-      "role": "Media",
-      "quote": "Pay us Wiz"
-    },
-    {
-      "name": "TuanAnh",
-      "role": "Kahoot",
-      "quote": "Limbussy"
-    },
-    {
-      "name": "Meruko",
-      "role": "Lead_Staff",
-      "quote": "In relationsheep with Eyja"
-    },
-    {
       "name": "シイナ•コチヤ",
       "role": "Mini_Tournament",
       "quote": "Someday, our dreams will come true"
     },
     {
-      "name": "スイリン • です",
+      "name": "スイリン•です",
       "role": "Mini_Tournament",
       "quote": "I play Balatro 48 hours a day."
     },
@@ -94,6 +94,11 @@
       "name": "Staug",
       "role": "Donator",
       "quote": "NOT EXIST"
+    },
+    {
+      "name": "Cerberose",
+      "role": "Collaborator",
+      "quote": "I don't even play Arknights"
     }
   ]
 }
