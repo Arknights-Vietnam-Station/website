@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import { ReactNode } from "react";
 
-import "./globals.css";
+import "../globals.css";
 
 const jbMono = JetBrains_Mono({
     variable: "--font-jb-mono",

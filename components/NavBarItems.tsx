@@ -10,7 +10,7 @@ export default function NavbarItems() {
     // https://nextjs.org/docs/app/api-reference/functions/use-router#migrating-from-nextrouter
 
     return (
-        <div className="lg:grid lg:grid-cols-3 lg:place-items-center-safe">
+        <div className="lg:grid lg:grid-cols-4 lg:place-items-center-safe">
             <li className={path == "/about/dreamchasers" ? "rounded-sm bg-black text-white" : ""}>
                 <Link href={"/about/dreamchasers"}>Chúng tôi là ai?</Link>
             </li>
@@ -19,6 +19,9 @@ export default function NavbarItems() {
             </li>
             <li className={path == "/timeline" ? "rounded-sm bg-black text-white" : ""}>
                 <Link href={"/timeline"}>Kế hoạch</Link>
+            </li>
+            <li className={path == "/tournament" ? "rounded-sm bg-black text-white" : ""}>
+                <Link href={"/tournament"}>Tour</Link>
             </li>
         </div>
     );

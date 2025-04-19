@@ -14,6 +14,9 @@ const eslintConfig = [
     ...compat.extends("next/core-web-vitals", "next/typescript"),
     eslintPluginPrettierRecommended,
     {
+        ignores: ["./lib/prisma/**/**"],
+    },
+    {
         rules: {
             "prettier/prettier": [
                 "error",

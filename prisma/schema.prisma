@@ -1,0 +1,14 @@
+datasource db {
+    provider = "mongodb"
+    url      = env("DATABASE_URL")
+}
+
+generator gyatt {
+    provider = "prisma-client-js"
+    output   = "../lib/prisma/client"
+}
+
+model MemberVote {
+    id    String @id @default(auto()) @map("_id") @db.ObjectId
+    count Int    @default(0)
+}
