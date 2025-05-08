@@ -37,12 +37,30 @@ export default function TournamentBan() {
         { id: "151_myrtle", name: "Fang", rarity: 3, class: 1 },
         { id: "151_myrtle", name: "Yato", rarity: 2, class: 1 },
         { id: "151_myrtle", name: "Confess-47", rarity: 1, class: 1 },
+        { id: "151_myrtle", name: "Vulpisfoglia", rarity: 6, class: 1 },
+        { id: "151_myrtle", name: "Texas", rarity: 5, class: 1 },
+        { id: "151_myrtle", name: "Courier", rarity: 4, class: 1 },
+        { id: "151_myrtle", name: "Fang", rarity: 3, class: 1 },
+        { id: "151_myrtle", name: "Yato", rarity: 2, class: 1 },
+        { id: "151_myrtle", name: "Confess-47", rarity: 1, class: 1 },
+        { id: "151_myrtle", name: "Vulpisfoglia", rarity: 6, class: 1 },
+        { id: "151_myrtle", name: "Texas", rarity: 5, class: 1 },
+        { id: "151_myrtle", name: "Courier", rarity: 4, class: 1 },
+        { id: "151_myrtle", name: "Fang", rarity: 3, class: 1 },
+        { id: "151_myrtle", name: "Yato", rarity: 2, class: 1 },
+        { id: "151_myrtle", name: "Confess-47", rarity: 1, class: 1 },
+        { id: "151_myrtle", name: "Vulpisfoglia", rarity: 6, class: 1 },
+        { id: "151_myrtle", name: "Texas", rarity: 5, class: 1 },
+        { id: "151_myrtle", name: "Courier", rarity: 4, class: 1 },
+        { id: "151_myrtle", name: "Fang", rarity: 3, class: 1 },
+        { id: "151_myrtle", name: "Yato", rarity: 2, class: 1 },
+        { id: "151_myrtle", name: "Confess-47", rarity: 1, class: 1 },
     ];
     return (
-        <div className={"block h-screen w-screen"}>
+        <div className={"block w-screen overflow-hidden"}>
             <div className={"flex h-full w-full flex-col items-start justify-start"}>
-                <div className={"sticky top-16 my-3 flex h-10 w-full items-center justify-center"}>
-                    <Image src={VNS_Banner} alt={"VNS_Banner"} height={40} className={"object-contain"} />
+                <div className={"flex my-3 w-full items-center justify-center"}>
+                    <Image src={VNS_Banner} alt={"VNS_Banner"} width={150} className={"object-contain"} />
                 </div>
                 <div className={"grid min-h-25 w-full grid-cols-6"}>
                     {bannedList.map((operator) => {
@@ -104,10 +122,14 @@ export default function TournamentBan() {
                         </div>
                     </div>
                 </div>
-                <div className={"mt-2 grid w-full grid-cols-5"}>
-                    {OperatorList.map((operator) => {
-                        return <OperatorIcon key={operator.name} operator={operator} />;
-                    })}
+                <div className={"mt-2 w-full max-h-[35vh] overflow-auto"}>
+                    <div className="flex flex-wrap">
+                        {OperatorList.map((operator, index) => (
+                            <div key={index} className="w-1/4 flex justify-center">
+                            <OperatorIcon operator={operator} />
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>

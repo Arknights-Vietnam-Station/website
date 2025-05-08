@@ -44,11 +44,11 @@ export default function RootLayout({
 }>) {
     return (
         <html lang={"en"}>
-            <body className={`${jbMono.variable} antialiased`}>
+            <body className={`${jbMono.variable} antialiased overflow-hidden`}>
                 <NavBar />
                 <div
                     className={
-                        "flex min-h-screen max-w-screen items-center justify-center font-[family-name:var(--font-jb-mono)]"
+                        "block min-h-screen max-w-screen items-center justify-center font-[family-name:var(--font-jb-mono)]"
                     }
                 >
                     {children}
