@@ -33,13 +33,13 @@ function OperatorIcon({ operator }: { operator: Operator }) {
             ${rarityColor}70 50%,
             ${rarityColor}00 100%
           )`,
-                    borderBottom: `4px solid ${rarityColor}`,
+                    borderBottom: `2px solid ${rarityColor}`,
                 }}
             >
                 <Image
                     src={`/operators/char_${operator.id}.png`}
-                    width={48}
-                    height={48}
+                    width={56}
+                    height={56}
                     alt={operator.name}
                     className={"object-contain"}
                 />
